@@ -1,1 +1,29 @@
+Hello! everyone 
+Welcome to my github profile
 
+In this project, we analyze the Boston Housing Dataset using Linear Regression to predict house prices based on various factors. We utilize the scikit-learn library to load the dataset and perform model training and evaluation.
+
+Steps Involved:
+Loading the Dataset:
+
+The Boston dataset is available in sklearn. datasets and contains information about various housing attributes in Boston.
+
+It includes 506 samples with 13 input features related to housing prices.
+
+Data Preprocessing:
+
+Convert the dataset into a Pandas DataFrame for better visualization and manipulation.
+
+Split the dataset into training and testing sets.
+
+Applying Linear Regression:
+
+Fit a Linear Regression Model to predict the target variable (house prices).
+
+Use the sklearn—linear_model module.
+
+Evaluating Model Performance:
+
+Compute the Mean Squared Error (MSE) to measure the average squared difference between actual and predicted values.
+
+Calculate the R² Score, which indicates the proportion of variance in the dependent variable explained by the model.
